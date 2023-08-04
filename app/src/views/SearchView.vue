@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-7xl mx-auto grid grid-cols-4 gap-4">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-4">
         <div class="main-left col-span-3 space-y-4">
             <div class="bg-white border border-gray-200 rounded-lg">
                 <form v-on:submit.prevent="submitForm" class="p-4 flex space-x-4">  
@@ -14,7 +14,7 @@
             </div>
 
             <div 
-                class="p-4 bg-white border border-gray-200 rounded-lg grid grid-cols-4 gap-4"
+                class="p-4 bg-white border border-gray-200 rounded-lg grid md:grid-cols-4 gap-4"
                 v-if="users.length"
             >
                 <div 
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <div class="main-right col-span-1 space-y-4">
+        <div class="main-right hidden md:block col-span-1 space-y-4">
             <PeopleYouMayKnow />
 
             <Trends />

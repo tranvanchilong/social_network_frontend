@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-7xl mx-auto grid grid-cols-4 gap-4">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-4">
         <div class="main-left col-span-1">
             <div class="p-4 bg-white border border-gray-200 rounded-lg">
                 <div class="space-y-4">

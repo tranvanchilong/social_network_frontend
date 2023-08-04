@@ -7,7 +7,7 @@ import axios from 'axios'
 
 import './assets/main.css'
 
-axios.defaults.baseURL = 'http://139.162.28.246:5010'
+axios.defaults.baseURL = 'http://127.0.0.1:5010'
 
 const app = createApp(App)
 

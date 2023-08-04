@@ -16,6 +16,7 @@ nohup npm run serve &
 sudo firewall-cmd --add-port=8081/tcp --permanent
 sudo firewall-cmd --reload
 # tìm pid và kill
+ps aux | grep '8080\|8082'
 ps aux | grep "npm run serve"
 kill 12345
 # 
